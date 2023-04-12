@@ -4,9 +4,7 @@
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dongjaeheo&label=Profile%20views&color=0e75b6&style=flat" alt="dongjaeheo" /> </p>
 
 - 🔭 I’m currently working on [Templates Extension](https://www.templates-extension.com/)
-  The Templates Extension is web app and chrome extension that connects the work space where you can create and update your own template with extension so you have   access to your templates anywhere.
-  Templates Extension is my group project and we saw more potensial to the website so we decided to work more on it. It's on chrome webstore now so anyone can use it.
-  I'm working on adding payment method.
+  The Templates Extension is web app and chrome extension that connects the work space where you can create and update your own template with extension so you have access to your templates anywhere. Templates Extension is my group project and we saw more potential in the website so we decided to work more on it. It's on the chrome webstore now so anyone can use it. 
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
