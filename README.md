@@ -38,6 +38,8 @@ To develop a financial domain-specific LLM capable of solving KRX-Bench tasks, b
 - Implemented CoT prompting templates, DPO/ORPO fine-tuning routines, and distillation workflows
 - Built an internal leaderboard (PostgreSQL + Plotly-Dash) for rigorous model evaluation and comparison
 
+![KRX Leaderboard](images/score_board.png)
+
 **Results:**
 - Achieved **+13 points** improvement in financial accounting accuracy over baseline
 - Secured **2nd place (prelims)** and **12th place (nationals)** among 100+ competing teams
