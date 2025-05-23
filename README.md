@@ -23,122 +23,82 @@ Recently updated auto submit and changed design a little. For better user experi
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=dongjaeheo&" alt="dongjaeheo" /></p>
 
 <!--
-  GitHub Portfolio for Dongjae Heo
-  Job Title: Machine Learning Engineer
+  GitHub Project Portfolio for Dongjae Heo
+  Role: Machine Learning Engineer
 -->
 
 # Dongjae Heo
 **Machine Learning Engineer**
 
-<!-- Add a professional headshot or banner image here -->
-<!-- ![Banner](assets/banner.png) -->
+<!-- Banner or Hero image for portfolio -->
+<!-- ![Hero Image](assets/hero.png) -->
 
-- 📍 Seoul, South Korea
+## 🚀 About This Portfolio
+A curated showcase of my key machine learning projects, highlighting hands‑on experience in ML engineering, LLM fine‑tuning, and RAG systems. Dive into code samples, visual results, and architecture diagrams.
+
+---
+
+## 🏗️ Projects
+
+### 🎯 KRX Financial LLM Dashboard
+**Oct – Dec 2024**
+- **Overview:** Developed a finance‑specialized LLM with chain‑of‑thought prompting, continual pretraining, and DPO.
+- **Highlights:** 2nd place in prelims; +13pt gain in accounting score.
+- **Artifacts:** 
+  - [Code Repository](#) 
+  - [Live Dashboard](#)
+  - <!-- Screenshot of leaderboard -->
+    <!-- ![KRX Dashboard](assets/krx_dashboard.png) -->
+
+### ✂️ Dialogue Summarization (Korean–English)
+**Aug – Sep 2024**
+- **Overview:** Cleaned and fine‑tuned a 10B‑parameter model using LoRA & 4‑bit quantization.
+- **Metrics:** Achieved ROUGE‑L of 44.16 (top 3).
+- **Artifacts:** 
+  - [Notebook](#) 
+  - <!-- Before/After summary examples chart -->
+    <!-- ![Summarization Results](assets/summarization_chart.png) -->
+
+### 🔍 RAG Q&A Chatbot
+**Jun – Jul 2024**
+- **Overview:** Built a Retrieval‑Augmented Generation pipeline combining custom embeddings and BM25 fusion.
+- **Impact:** Improved answer relevance by 20% vs baseline.
+- **Artifacts:** 
+  - [Architecture Diagram](#)
+  - <!-- Demo GIF of chat interface -->
+    <!-- ![RAG Demo](assets/rag_demo.gif) -->
+
+### 🛠️ Template Extension Chrome Add‑On
+**Apr 2022**
+- **Overview:** Chrome extension for inserting custom email/SMS templates.
+- **Features:** One‑click template insertion across Gmail, LinkedIn, chat apps.
+- **Artifacts:**
+  - [Chrome Web Store](#)
+  - <!-- Screenshot of extension UI -->
+    <!-- ![Extension UI](assets/extension_ui.png) -->
+
+---
+
+## 🛠️ Skills & Tools
+- **Machine Learning:** PyTorch, Transformers, Langchain, DPO/GRPO
+- **Data Engineering:** Pandas, NumPy, FAISS, Pinecone
+- **Backend:** Python (FastAPI, Flask), Docker, AWS
+- **DevOps & CI/CD:** GitHub Actions, Docker, Terraform
+- **Visualization:** Plotly, Matplotlib, Dash
+
+---
+
+## 🎓 Education & Certifications
+- **B.Eng in AI & Big Data**, Cyber University of Korea (2024–2027)
+- **Top 3**, Upstage AI Lab (2024)
+- **AWS ML Engineer – Associate** (2025)
+
+---
+
+## 📞 Get in Touch
 - 📧 [dongjaeheo14@gmail.com](mailto:dongjaeheo14@gmail.com)
 - 🌐 [LinkedIn](https://www.linkedin.com/in/dongjaeheo/)
 
----
-
-## 🚀 About Me
-
-I am a driven Machine Learning Engineer with hands-on experience in LLM fine-tuning, RAG systems, predictive maintenance, and image-based anomaly detection. I hold a First Class equivalent B.Eng in Artificial Intelligence & Big Data and have competed at the top of national and international AI challenges.
-
----
-
-## 📚 Skills
-
-| Domain       | Technologies & Tools                            |
-|--------------|-------------------------------------------------|
-| **ML & AI**  | PyTorch, Transformers, Langchain, FSDP, DPO/GRPO |
-| **Data**     | Pandas, NumPy, FAISS, Pinecone                  |
-| **Backend**  | Python (FastAPI, Flask), Docker, AWS            |
-| **Frontend** | JavaScript, React, Chrome Extension             |
-| **Databases**| Oracle, MySQL, MongoDB                          |
-
----
-
-## 🏆 Selected Projects
-
-### 1. KRX Financial LLM Competition (Team Leader)
-**Oct – Dec 2024**
-- Developed a finance-specific LLM using CoT, continual pretraining, DPO, and distillation.
-- Built a custom evaluation leaderboard (PostgreSQL + Plotly-Dash).
-- Achieved +13pt improvement in financial accounting score; placed 2nd (prelim) & 12th (national).
-
-<!-- Add a screenshot of your custom leaderboard here -->
-<!-- ![KRX Leaderboard](assets/krx_leaderboard.png) -->
-
-### 2. Dialogue Summarisation Competition (AI Engineer)
-**Aug – Sep 2024**
-- Cleaned and standardized Korean–English dialogue datasets using NER & phoneme heuristics.
-- Fine-tuned a 10B-parameter EEVE model with LoRA & 4-bit quantization; ROUGE-L 44.16 (Top 3).
-
-<!-- Include before/after examples or ROUGE scores chart -->
-<!-- ![Summarisation Results](assets/summary_results.png) -->
-
-### 3. RAG Information Retrieval Competition (Project Lead)
-**Jun – Jul 2024**
-- Designed a RAG pipeline with custom embeddings and BM25 fusion.
-- Deployed interactive QA chatbot with retrieval from internal knowledge base.
-- Improved answer relevance by 20% over baseline.
-
-<!-- Embed a demo GIF or diagram of your RAG architecture -->
-<!-- ![RAG Demo](assets/rag_architecture.gif) -->
-
-### 4. Template Extension (Developer)
-**Apr 2022**
-- Built a Chrome extension for email/SMS templates, integrated with backend API.
-- Enabled one-click insertion of templates across Gmail, LinkedIn, and chat apps.
-- Published to Chrome Web Store; positive peer feedback.
-
-<!-- Screenshot of the extension UI -->
-<!-- ![Chrome Extension](assets/extension_ui.png) -->
-
-
----
-
-## 💼 Experience
-
-**B2B AI Technical Trainer, Day1 (Samsung)** _(Feb 2025 – Present)_
-- Delivered advanced ML workshops to 60+ Samsung engineers.
-- Supervised internal LLM fine-tuning, predictive maintenance, and anomaly detection projects.
-- Created tutorials, code templates, and evaluation rubrics.
-
-**Project Lead, AI Education Platform** _(Jan 2025 – Present)_
-- Leading development of OCR, NLP, TTS/ STT, and RAG-powered intelligent learning tools.
-- Mentoring a team of 10+ developers in end-to-end ML pipelines.
-
-**Team Leader, KRX Financial LLM Challenge** _(Oct 2024 – Dec 2024)_
-- Coordinated 4-member team for domain-specific LLM development.
-
----
-
-## 🎓 Education
-
-**B.Eng Artificial Intelligence & Big Data**<br>
-Cyber University of Korea _(2024 – 2027)_<br>
-First Class Equivalent (GPA 4.5/4.5) • Full Academic Scholarships (2024, 2025)
-
-**Advanced AI & LLM Engineering**<br>
-Upstage AI Lab _(2024)_ • Top 3 among 30+ participants; ‘Golden Boot’ award
-
-**Certificate in Web Development**<br>
-Le Wagon _(2023)_ • Ruby on Rails • Chrome Extension project
-
----
-
-## 📜 Certifications
-
-- AWS Machine Learning Engineer – Associate (2025)
-- AWS Solutions Architect – Associate (2024)
-
----
-
-## 📞 Contact
-
-I’m always open to discussing new projects or opportunities!<br>
-Email: dongjaeheo14@gmail.com<br>
-LinkedIn: https://www.linkedin.com/in/dongjaeheo/
-
-<!-- OPTIONAL: Add a QR code or vCard download link -->
+<!-- Optional: QR code or contact card -->
 <!-- ![vCard](assets/vcard_qr.png) -->
+
