@@ -139,6 +139,28 @@ To create a reusable template platform as a web app and Chrome extension that en
 
 ---
 
+### 5. Semantic Segmentation Model (Under NDA)
+**2025** | **Role:** AI Research Engineer
+
+**Objective:**
+Develop a robust semantic segmentation solution for critical use cases. Detailed information is omitted due to confidentiality agreements (NDA).
+
+**Overview:**
+- Iterating on state-of-the-art architectures under secure settings
+- Utilizing extensive augmentation pipelines:
+  - Copy-paste augmentation of real object regions
+  - Synthetic data generation through diffusion-based techniques
+- Focusing on resilience to occlusion, varied lighting, and class imbalance
+
+**Key Contributions:**
+- Established and evaluated a baseline segmentation model to validate feasibility with limited data
+- Developed data labeling guidelines and quality control processes for consistent, high-quality annotations
+- Leveraged transfer learning from pre-trained vision backbones to accelerate convergence
+
+
+**Results:**
+- Early prototype results are promising, with ongoing refinements to improve performance
+
 ## 🎓 Education & Certifications
 - **B.Eng in AI & Big Data**, The Cyber University of Korea (2024–2027)  
 - **Top 3**, Upstage AI Lab (2024)  
