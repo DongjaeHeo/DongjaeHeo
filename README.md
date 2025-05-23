@@ -20,20 +20,27 @@ I’m Dongjae Heo, a Machine Learning Engineer passionate about building domain-
 **Oct – Dec 2024** | **Role:** Team Leader
 
 **Objective:**
-Develop a financial-domain LLM capable of solving complex multiple-choice and reasoning tasks on the KRX-Bench benchmark, using advanced adaptation and reinforcement strategies.
+To develop a financial domain-specific LLM capable of solving KRX-Bench tasks, by exploring novel training strategies beyond standard fine-tuning, such as CoT, continual pretraining, and reinforcement learning
 
-**Overview:**
-Led a 4‑person team to explore and implement strategies beyond vanilla fine-tuning. We built a scalable pipeline that integrated chain-of-thought prompting (CoT), continual pretraining on finance corpora, Direct Preference Optimization (DPO), and distillation to craft a specialized model.
+**Overview & Innovations:**
+- Explored advanced training methods beyond vanilla fine-tuning:
+  - **Continual Pretraining** on proprietary finance corpora
+  - **DPO** and **ORPO**
+  - **CoT Prompting** and **Knowledge Distillation** to enhance reasoning
+- Generated high-quality MCQA datasets with CoT rationales using Claude and GPT-4o
+- Adopted domain adaptation strategies inspired by:
+  - *Adapting LLMs to Domains via Reading Comprehension*
+  - *Improving Domain Adaptation through Extended-Text Reading Comprehension*
 
 **Key Contributions:**
-- **Pipeline Design:** Architected an end-to-end training flow using FSDP for distributed model parallelism.
-- **Data Engineering:** Generated synthetic MCQA datasets with CoT rationales using Claude & GPT-4o, and curated high-quality finance texts for domain adaptation.  
-- **Algorithmic Innovation:** Implemented CoT prompting templates, DPO/ORPO fine-tuning, and knowledge distillation to boost reasoning accuracy.  
-- **Evaluation:** Built a custom leaderboard dashboard (PostgreSQL + Plotly‑Dash) to track 20+ model variants across financial metrics.
+- Architected a distributed training pipeline using FSDP for large-scale model parallelism
+- Curated and synthesized specialized financial MCQA data with rationale chains
+- Implemented CoT prompting templates, DPO/ORPO fine-tuning routines, and distillation workflows
+- Built an internal leaderboard (PostgreSQL + Plotly-Dash) for rigorous model evaluation and comparison
 
 **Results:**
-- Achieved **+13 point** gain in financial accounting accuracy over baseline.  
-- Secured **2nd place (prelims)** and **12th place (nationals)** among 100+ teams, outperforming industry giants.
+- Achieved **+13 points** improvement in financial accounting accuracy over baseline
+- Secured **2nd place (prelims)** and **12th place (nationals)** among 100+ competing teams
 
 <!-- Leaderboard screenshot -->
 <!-- ![KRX Leaderboard](assets/krx_leaderboard.png) -->
