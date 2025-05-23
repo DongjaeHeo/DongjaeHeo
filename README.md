@@ -41,6 +41,7 @@ To develop a financial domain-specific LLM capable of solving KRX-Bench tasks, b
 - Secured **2nd place (prelims)** and **12th place (nationals)** among 100+ competing teams including industry leaders and specialized financial LLM companies such as Google, Kakao, Naver, Lotte and more.
 
 **Custor Testing Borad**
+
 ![KRX Leaderboard](images/score_board.png)
 
 ---
