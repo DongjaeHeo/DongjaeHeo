@@ -1,13 +1,6 @@
-<!--
-  Detailed GitHub Project Portfolio for Dongjae Heo
-  Role: Machine Learning Engineer
--->
-
 # Dongjae Heo
 **Machine Learning Engineer**
 
-<!-- Hero section: professional headshot + tagline -->
-<!-- ![Hero Image](assets/hero.png) -->
 
 ## 👋 About Me
 I’m Dongjae Heo, a Machine Learning Engineer passionate about building domain-specific AI solutions. With extensive experience fine-tuning large language models, designing RAG systems, and delivering production-ready ML pipelines, I thrive in environments where cutting-edge research meets real-world impact.
@@ -16,108 +9,133 @@ I’m Dongjae Heo, a Machine Learning Engineer passionate about building domain-
 
 ## 🏆 Projects
 
-### 1. KRX Financial LLM Competition (Team Leader)
+### 1. KRX Financial LLM Competition
 **Oct – Dec 2024** | **Role:** Team Leader
 
 **Objective:**
 To develop a financial domain-specific LLM capable of solving KRX-Bench tasks, by exploring novel training strategies beyond standard fine-tuning, such as CoT, continual pretraining, and reinforcement learning
 
-**Overview & Innovations:**
-- Explored advanced training methods beyond vanilla fine-tuning:
+**Overview**
+- Developed a financial-specialized LLM tailored for the KRX-Bench benchmark
+- Explored advanced training methods beyond fine-tuning:
   - **Continual Pretraining** on proprietary finance corpora
   - **DPO** and **ORPO**
-  - **CoT Prompting** and **Knowledge Distillation** to enhance reasoning
-- Generated high-quality MCQA datasets with CoT rationales using Claude and GPT-4o
+  - **CoT Prompting** and **Knowledge Distillation**
+- Generated high-quality MCQA with Cot and reasoning datasets using Claude & GPT-4o
 - Adopted domain adaptation strategies inspired by:
   - *Adapting LLMs to Domains via Reading Comprehension*
   - *Improving Domain Adaptation through Extended-Text Reading Comprehension*
-
+- Built an internal leaderboard for large-scale evaluation
+- 
 **Key Contributions:**
-- Architected a distributed training pipeline using FSDP for large-scale model parallelism
-- Curated and synthesized specialized financial MCQA data with rationale chains
-- Implemented CoT prompting templates, DPO/ORPO fine-tuning routines, and distillation workflows
-- Built an internal leaderboard (PostgreSQL + Plotly-Dash) for rigorous model evaluation and comparison
-
-![KRX Leaderboard](images/score_board.png)
+- Proactive team leader, coordinating 4 members across model training, data generation, and evaluation
+- Organized key research papers to guide model design and training strategies
+- Designed the end-to-end training pipeline, including FSDP-based parallel learning
+- Created high-quality instruction templates for CoT reasoning, MCQA, and multi-task learning
+- Curated and filtered synthetic data to reduce catastrophic forgetting
+- Developed and maintained a custom testing board system (PostgreSQL + Plotly-Dash) for large-scale evaluation
 
 **Results:**
 - Achieved **+13 points** improvement in financial accounting accuracy over baseline
-- Secured **2nd place (prelims)** and **12th place (nationals)** among 100+ competing teams
+- Custom leaderboard enabled rapid experimentation and identified optimal model variants.
+- Secured **2nd place (prelims)** and **12th place (nationals)** among 100+ competing teams including industry leaders and specialized financial LLM companies such as Google, Kakao, Naver, Lotte and more.
 
-<!-- Leaderboard screenshot -->
-<!-- ![KRX Leaderboard](assets/krx_leaderboard.png) -->
+**Custor Testing Borad**
+![KRX Leaderboard](images/score_board.png)
 
 ---
 
-### 2. Information Retrieval (RAG) Chatbot (Project Lead)
-**Jun – Jul 2024** | **Role:** Project Lead
+### 2. Information Retrieval (RAG)
+**Jun – Jul 2024** | **Role:** RAG Sytem Engineer
 
 **Objective:**
-Design and deploy a Retrieval-Augmented Generation (RAG) pipeline that answers domain queries with high relevance by fusing vector embeddings and BM25 scores.
+To build a fact-grounded Retrieval-Augmented Generation (RAG) system capable of scientific knowledge reasoning, reducing LLM hallucinations by integrating real-time document retrieval and inference.
 
 **Overview:**
-Built a modular retrieval system combining custom-trained embeddings for internal documents and open-source BM25 indexing. Integrated the retriever with a chat interface, enabling real-time Q&A enriched by retrieved context.
+- Addressed fundamental LLM limitations such as knowledge cutoff and hallucination
+- Designed a RAG system to retrieve relevant scientific documents and generate accurate answers
+- Used classification to distinguish between scientific vs. general questions and selectively apply retrieval
+- Emphasized real-time knowledge grounding over model-based memorization
+- Focused on RAG architecture design rather than parameter tuning or model ensembling
 
 **Key Contributions:**
-- **Embedding Model:** Fine-tuned a bilingual sentence-transformer on proprietary knowledge graphs to yield 768‑dim vectors.  
-- **Fusion Strategy:** Developed a hybrid scoring mechanism that normalizes and merges cosine similarity with BM25 ranking to select top‑k passages.  
-- **System Integration:** Deployed on FastAPI with Redis caching, achieving sub‑200ms retrieval latency.  
-- **UX Design:** Frontend prototype in React; incorporated an interactive UI showing source citations alongside answers.
+- Took primary responsibility for the competition, handling every aspects of the core Advanced RAG system development
+- Built a complete LangChain-based chatbot on top of the custom RAG pipeline
+- Finalized the system early, which allowed other teammates to explore separate experimental directions such as Chrome Extension
+- The chatbot’s strong performance led to it being highlighted by the organizers
 
 **Results:**
 - **+20%** improvement in answer relevance compared to a pure BM25 baseline.  
 - Handled **5,000+** queries per day with **99.5% uptime** post‑deployment.
 
-<!-- RAG architecture diagram -->
-<!-- ![RAG Architecture](assets/rag_architecture.png) -->
+**Advance RAG Design**
+
+![Advanced RAG Design](images/Advanced_RAG.png)
 
 ---
 
-### 3. Dialogue Summarisation Competition (AI Engineer)
+### 3. Dialogue Summarisation Competition
 **Aug – Sep 2024** | **Role:** AI Engineer
 
 **Objective:**
-Enhance Korean–English dialogue summarisation by combining advanced preprocessing, keyword extraction, and model fine-tuning to excel in a national NLP contest.
+To build a summarization model for Korean dialogue data by integrating preprocessing, keyword extraction, and NLP model fine-tuning, improving performance on the NLP competition.
 
 **Overview:**
-Performed exhaustive data cleaning on noisy dialogue transcripts, integrated morphological analysis for keyword guidance, and fine-tuned a 10B‑parameter EEVE model with LoRA and 4‑bit quantization to maximize performance under resource constraints.
+- Conducted extensive data cleaning (e.g., special token fixes, name normalization, outlier removal)
+- Designed keyword extraction pipelines using Komoran and other morphological analyzer
+- Explored multiple summarization models (KoBART, T5, EEVE)
+- Fine-tuned top-performing models using LoRA and quantization
+- Performed score-driven model selection and evaluation
 
 **Key Contributions:**
-- **Preprocessing:** Cleaned 50k+ dialogue pairs, fixed special-token errors, and removed semantic outliers via cosine-similarity filters.  
-- **Keyword Pipeline:** Extracted salient terms using Komoran/Nori analyzers; injected keywords into prompts to steer summarisation.  
-- **Name Standardisation:** Applied NER + Korean phoneme heuristics to align entity mentions across languages.  
-- **Model Optimization:** Leveraged LoRA adapters and 4‑bit nf4 quantization to enable efficient fine‑tuning on a single 24 GB GPU.
+- Trained a 10B parameter model (EEVE) on a 24GB GPU using LoRA and 4-bit quantization
+- Detected outlier by vectorizing dialogues and summaries and computing cosine similarity
+- Standardized names across Korean and English using:
+  - NER + phoneme decomposition (consonant/vowel splitting)
+  - Weighted similarity heuristics to ensure aligned references in dialogue/summary pairs
 
 **Results:**
 - Ranked **Top 3** with a **ROUGE‑L score of 44.16**.  
 - Demonstrated that extensive preprocessing + lightweight fine-tuning outperforms naive full‑parameter updates.
 
-<!-- Rouge results chart -->
-<!-- ![Summarization Dashboard](assets/summarization_results.png) -->
+**Noun Standardization**
+
+![Noun Standardization](images/word_similarity.png)
+![Noun Standardization](images/alphabet_similarity.png)
+
 
 ---
 
-### 4. Template Extension Chrome Add‑On (Developer)
-**Apr 2022** | **Role:** Developer
+### 4. Template Extension Chrome Add‑On
+**Apr 2022** | **Role:** Web Developer
 
 **Objective:**
-Create a cross-platform Chrome extension to streamline repetitive communication by managing text/image templates directly in the browser.
+To create a reusable template platform as a web app and Chrome extension that enhances productivity in repetitive communication tasks.
 
 **Overview:**
-Developed a user-friendly UI for template creation, preview, and insertion. Designed backend APIs for real-time template storage and updates, and ensured compatibility across Gmail, LinkedIn, and messaging apps.
+- Targeted use cases: recruiting, event coordination, and social media messaging
+- Designed for users frequently sending similar emails or text content
+- Built intuitive UI for template creation and quick copy-paste access
+- Designed extension to work across Gmail, LinkedIn, and messaging platforms
+- Focused on minimizing context switching during high-volume outreach
 
 **Key Contributions:**
-- **Frontend:** Built with React and Tailwind CSS; implemented drag‑and‑drop template editor.  
-- **Backend API:** FastAPI + MongoDB for secure template CRUD operations.  
-- **Extension Logic:** Injected content scripts to detect active text fields and offer insertion shortcuts.  
-- **User Feedback Loop:** Collected usage metrics and heatmaps to refine UI/UX.
+- Developed a Chrome extension with backend integration for seamless template management
+- Enabled users to fetch, preview, and copy entire templates, including text, images, and layout
+- Designed the UI to allow one-click copy of full message content for fast reuse across platforms
+- Connected extension to a backend API for storing and updating user templates in real time
 
 **Results:**
-- Published on Chrome Web Store; received positive feedback from recruiters and sales teams.  
-- Increased outreach efficiency by **30%** in internal user surveys.
+- Received positive feedback from peers, including a teammate who works as a recruiter
+- The tool was actively used in production and published to the Chrome Web Store
+- Helped streamline communication during real hiring workflows
+(Note: The extension is no longer active or publicly available)
 
-<!-- Extension UI screenshot -->
-<!-- ![Template Extension](assets/extension_screenshot.png) -->
+**Use Case**
+
+![Template Extension](images/Template_Extension.png)
+
+(Note: The extension is no longer active or publicly available)
 
 ---
 
@@ -129,10 +147,8 @@ Developed a user-friendly UI for template creation, preview, and insertion. Desi
 ---
 
 ## 📫 Contact
-I’m always open to collaborations and new challenges!  
 - 📧 [dongjaeheo14@gmail.com](mailto:dongjaeheo14@gmail.com)  
 - 🌐 [LinkedIn](https://www.linkedin.com/in/dongjaeheo/)
 
-<!-- Optional: Add QR code or vCard -->
-<!-- ![vCard](assets/vcard_qr.png) -->
+
 
