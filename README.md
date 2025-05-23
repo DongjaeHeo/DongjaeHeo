@@ -143,7 +143,7 @@ To create a reusable template platform as a web app and Chrome extension that en
 **2025** | **Role:** AI Research Engineer
 
 **Objective:**
-Develop a robust semantic segmentation solution for critical use cases. Detailed information is omitted due to confidentiality agreements (NDA).
+Developing a robust semantic segmentation solution for critical use cases. Detailed information is omitted due to confidentiality agreements (NDA).
 
 **Overview:**
 - Iterating on state-of-the-art architectures under secure settings
