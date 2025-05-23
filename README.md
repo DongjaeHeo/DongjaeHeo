@@ -1,6 +1,4 @@
-# Dongjae Heo
-**Machine Learning Engineer**
-
+# Dongjae Heo - **Machine Learning Engineer**
 
 ## 👋 About Me
 I’m Dongjae Heo, a Machine Learning Engineer passionate about building domain-specific AI solutions. With extensive experience fine-tuning large language models and semantic segmentation models and designing RAG systems. I thrive in environments where cutting-edge research meets real-world impact.
@@ -9,7 +7,8 @@ I’m Dongjae Heo, a Machine Learning Engineer passionate about building domain-
 
 ## 🏆 Projects
 
-### 1. KRX Financial LLM Competition
+### [1. KRX Financial LLM Competition](https://huggingface.co/KR-X-AI)
+
 **Oct – Dec 2024** | **Role:** Team Leader
 
 **Objective:**
@@ -46,7 +45,8 @@ To develop a financial domain-specific LLM capable of solving KRX-Bench tasks, b
 
 ---
 
-### 2. Information Retrieval (RAG)
+### [2. Information Retrieval (RAG) Competition](https://github.com/DongjaeHeo/upstage-ai-advanced-ir7)
+
 **Jun – Jul 2024** | **Role:** RAG Sytem Engineer
 
 **Objective:**
@@ -75,8 +75,8 @@ To build a fact-grounded Retrieval-Augmented Generation (RAG) system capable of 
 
 ---
 
-### 3. Dialogue Summarisation Competition
-[Dialogue Summarisation Competition](https://github.com/DongjaeHeo/upstage-dialogue-summarization-competition)
+### [3. Dialogue Summarisation Competition](https://github.com/DongjaeHeo/upstage-dialogue-summarization-competition)
+
 
 **Aug – Sep 2024** | **Role:** AI Engineer
 
@@ -109,7 +109,8 @@ To build a summarization model for Korean dialogue data by integrating preproces
 
 ---
 
-### 4. Template Extension Chrome Add‑On
+### [4. Template Extension Chrome Add‑On](https://github.com/EloPividori/Templates-Chrome-Extension)
+
 **Apr 2022** | **Role:** Web Developer
 
 **Objective:**
