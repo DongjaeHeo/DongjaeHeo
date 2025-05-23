@@ -3,7 +3,7 @@
 
 
 ## 👋 About Me
-I’m Dongjae Heo, a Machine Learning Engineer passionate about building domain-specific AI solutions. With extensive experience fine-tuning large language models, designing RAG systems, and delivering production-ready ML pipelines, I thrive in environments where cutting-edge research meets real-world impact.
+I’m Dongjae Heo, a Machine Learning Engineer passionate about building domain-specific AI solutions. With extensive experience fine-tuning large language models and semantic segmentation models and designing RAG systems I thrive in environments where cutting-edge research meets real-world impact.
 
 ---
 
@@ -140,7 +140,7 @@ To create a reusable template platform as a web app and Chrome extension that en
 ---
 
 ## 🎓 Education & Certifications
-- **B.Eng in AI & Big Data**, Cyber University of Korea (2024–2027)  
+- **B.Eng in AI & Big Data**, The Cyber University of Korea (2024–2027)  
 - **Top 3**, Upstage AI Lab (2024)  
 - **AWS ML Engineer – Associate** (2025)
 
