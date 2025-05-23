@@ -76,6 +76,8 @@ To build a fact-grounded Retrieval-Augmented Generation (RAG) system capable of 
 ---
 
 ### 3. Dialogue Summarisation Competition
+[Dialogue Summarisation Competition](https://github.com/DongjaeHeo/upstage-dialogue-summarization-competition)
+
 **Aug – Sep 2024** | **Role:** AI Engineer
 
 **Objective:**
