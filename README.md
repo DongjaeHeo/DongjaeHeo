@@ -66,8 +66,7 @@ To build a fact-grounded Retrieval-Augmented Generation (RAG) system capable of 
 - The chatbot’s strong performance led to it being highlighted by the organizers
 
 **Results:**
-- **+20%** improvement in answer relevance compared to a pure BM25 baseline.  
-- Handled **5,000+** queries per day with **99.5% uptime** post‑deployment.
+- **+30%** improvement in answer relevance compared to a naive RAG baseline.  
 
 **Advance RAG Design**
 
