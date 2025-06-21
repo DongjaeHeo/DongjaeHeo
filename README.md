@@ -47,7 +47,7 @@ To develop a financial domain-specific LLM capable of solving KRX-Bench tasks, b
 
 ### [2. Information Retrieval (RAG) Competition](https://github.com/DongjaeHeo/upstage-ai-advanced-ir7)
 
-**Jun – Jul 2024** | **Role:** RAG Sytem Engineer
+**Oct – Oct 2024** | **Role:** RAG Sytem Engineer
 
 **Objective:**
 To build a fact-grounded Retrieval-Augmented Generation (RAG) system capable of scientific knowledge reasoning, reducing LLM hallucinations by integrating real-time document retrieval and inference.
