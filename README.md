@@ -5,7 +5,33 @@ I’m Dongjae Heo, a Machine Learning Engineer passionate about building domain-
 
 ---
 
-## 🏆 Projects
+## 💼 Commercial & Research Projects
+
+### [1. Semantic Segmentation for Safety-Critical Infrastructure]  
+**2025** | **Role:** AI Research Engineer | *Commercial Contract Project (NDA)*  
+
+**Objective:**  
+Develop a robust semantic segmentation solution for **real-world safety-critical infrastructure monitoring**.  
+(Due to NDA, client details are omitted.)  
+
+**Overview:**  
+- Built real-time pipeline for **video-based monitoring**  
+- Integrated **ONNX → TensorRT** for accelerated inference in **Dockerized environments**  
+- Leveraged **SegFormer** with augmentation (copy-paste, synthetic data)  
+- Optimized for **low-latency edge deployment** in challenging environments  
+
+**Key Contributions:**  
+- Designed full deployment stack: GStreamer + ONNX + TensorRT + Docker  
+- Developed annotation guidelines and quality control for dataset consistency  
+- Benchmarked resilience under occlusion, low light, and class imbalance  
+
+**System Overview**  
+![Infrastructure Segmentation Pipeline](images/safety_segmentation.png)  
+
+*(Diagram simplified for NDA compliance)*  
+---
+
+## 🏆 Team Projects & Competitions
 
 ### [1. KRX Financial LLM Competition](https://huggingface.co/KR-X-AI)
 
