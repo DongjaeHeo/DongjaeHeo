@@ -75,7 +75,6 @@ To develop a financial domain-specific LLM capable of solving KRX-Bench tasks, b
 
 ![KRX Leaderboard](images/score_board.png)
 
----
 
 ### [2. Information Retrieval (RAG) Competition](https://github.com/DongjaeHeo/upstage-ai-advanced-ir7)
 
@@ -106,7 +105,6 @@ To build a fact-grounded Retrieval-Augmented Generation (RAG) system capable of 
 
 ![Advanced RAG Design](images/Advanced_RAG.png)
 
----
 
 ### [3. Dialogue Summarisation Competition](https://github.com/DongjaeHeo/upstage-dialogue-summarization-competition)
 
@@ -139,8 +137,6 @@ To build a summarization model for Korean dialogue data by integrating preproces
 ![Noun Standardization](images/word_similarity.png)
 ![Noun Standardization](images/alphabet_similarity.png)
 
-
----
 
 ### [4. Template Extension Chrome Add‑On](https://github.com/EloPividori/Templates-Chrome-Extension)
 
