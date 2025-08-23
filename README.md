@@ -174,9 +174,11 @@ To create a reusable template platform as a web app and Chrome extension that en
 ---
 
 ## 🎓 Education & Certifications
-- **B.Eng in AI & Big Data**, The Cyber University of Korea (2024–2027)  
-- **Top 3**, Upstage AI Lab (2024)  
+- **Double Major in AI & Big Data**, The Cyber University of Korea (2024–2027)
+  - Received the Highest Honor Scholarship for three consecutive semesters.
+- **Top 3**, Upstage AI Lab (2024)
 - **AWS ML Engineer – Associate** (2025)
+- **AWS solutions architect – Associate** (2024)
 
 ---
 
