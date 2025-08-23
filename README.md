@@ -94,7 +94,7 @@ To build a fact-grounded Retrieval-Augmented Generation (RAG) system capable of 
 - The chatbot’s strong performance led to it being highlighted by the organizers
 
 **Results:**
-- **+30%** improvement in answer relevance compared to a naive RAG baseline.  
+- Our approach resulted in a **30%** increase in document retrieval accuracy when compared with a naive RAG baseline.
 
 **Advance RAG Design**
 
