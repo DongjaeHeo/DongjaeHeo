@@ -95,6 +95,8 @@ To build a fact-grounded Retrieval-Augmented Generation (RAG) system capable of 
 
 **Results:**
 - Our approach resulted in a **30%** increase in document retrieval accuracy when compared with a naive RAG baseline.
+- Secured **1st place (Public)** and **2nd place (Private)**.
+
 
 **Advance RAG Design**
 
