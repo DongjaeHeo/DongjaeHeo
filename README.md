@@ -26,7 +26,7 @@ Develop a robust semantic segmentation solution for **real-world safety-critical
 - Benchmarked resilience under occlusion, low light, and class imbalance  
 
 **System Overview**  
-![Infrastructure Segmentation Pipeline](images/safety_segmentation.png)  
+![Infrastructure Segmentation Pipeline](images/Segmentation_pipeline.png)  
 
 *(Diagram simplified for NDA compliance)*  
 ---
