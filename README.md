@@ -35,6 +35,7 @@ Develop a robust semantic segmentation solution for **real-world safety-critical
 ![Infrastructure Segmentation Pipeline](images/Segmentation_pipeline_2.png)  
 
 *(Diagram simplified for NDA compliance)*  
+
 ---
 
 ## 🏆 Team Projects & Competitions
