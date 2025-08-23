@@ -24,8 +24,12 @@ Develop a robust semantic segmentation solution for **real-world safety-critical
 - Implemented **comprehensive monitoring**: logging, alerting, and automated rollback for production safety  
 - Designed and integrated a **self-supervised retraining loop** (logs → pseudo-label refinement → distillation → redeployment)  
 - Established **annotation standards and QC pipelines** to ensure consistent dataset quality  
-- Benchmarked and hardened the system against **occlusion, lighting variation, and class imbalance**  
+- Benchmarked and hardened the system against **occlusion, lighting variation, and class imbalance**
 
+**Results:**  
+- Delivered an **initial deploy-ready model** achieving **80% IoU** on domain-specific validation data  
+- Reached **93% F1 score** for obstruction detection, demonstrating strong performance in early testing  
+- Positioned the system for **continuous improvement** through self-supervised retraining and safe rollout mechanisms (canary deployments, rollback, monitoring) 
 
 **System Overview**  
 ![Infrastructure Segmentation Pipeline](images/Segmentation_pipeline_2.png)  
