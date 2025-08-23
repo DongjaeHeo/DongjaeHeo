@@ -58,7 +58,7 @@ To develop a financial domain-specific LLM capable of solving KRX-Bench tasks, b
   - *Adapting LLMs to Domains via Reading Comprehension*
   - *Improving Domain Adaptation through Extended-Text Reading Comprehension*
 - Built an internal leaderboard for large-scale evaluation
-- 
+
 **Key Contributions:**
 - Proactive team leader, coordinating 4 members across model training, data generation, and evaluation
 - Organized key research papers to guide model design and training strategies
