@@ -15,15 +15,17 @@ Develop a robust semantic segmentation solution for **real-world safety-critical
 (Due to NDA, client details are omitted.)  
 
 **Overview:**  
-- Built real-time pipeline for **video-based monitoring**  
-- Integrated **ONNX → TensorRT** for accelerated inference in **Dockerized environments**  
-- Leveraged **SegFormer** with augmentation (copy-paste, synthetic data)  
-- Optimized for **low-latency edge deployment** in challenging environments  
+- Converted models to **ONNX → TensorRT** for accelerated inference inside **Dockerized edge environments**  
+- Developed a **distilled SegFormer-based segmentation model**, incorporating **synthetic data generation** to address limited domain-specific data  
+- Optimized for **low-latency, resource-constrained edge deployment** with a continuous feedback loop for model improvement  
 
 **Key Contributions:**  
-- Designed full deployment stack: GStreamer + ONNX + TensorRT + Docker  
-- Developed annotation guidelines and quality control for dataset consistency  
-- Benchmarked resilience under occlusion, low light, and class imbalance  
+- Built the **end-to-end deployment stack**: multi-camera ingestion (RTSP) → GStreamer preprocessing → Dockerized TensorRT inference  
+- Implemented **comprehensive monitoring**: logging, alerting, and automated rollback for production safety  
+- Designed and integrated a **self-supervised retraining loop** (logs → pseudo-label refinement → distillation → redeployment)  
+- Established **annotation standards and QC pipelines** to ensure consistent dataset quality  
+- Benchmarked and hardened the system against **occlusion, lighting variation, and class imbalance**  
+
 
 **System Overview**  
 ![Infrastructure Segmentation Pipeline](images/Segmentation_pipeline_2.png)  
