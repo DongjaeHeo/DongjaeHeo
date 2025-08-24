@@ -1,7 +1,9 @@
 # Dongjae Heo - **Machine Learning Engineer**
 
 ## 👋 About Me
-I’m Dongjae Heo, a Machine Learning Engineer passionate about building domain-specific AI solutions. With extensive experience fine-tuning large language models and semantic segmentation models and designing RAG systems. I thrive in environments where cutting-edge research meets real-world impact.
+I am a **Machine Learning Engineer** focused on building **domain-specific AI systems** that move from research to real-world deployment.  
+My work spans **LLMs, RAG, and CV**, with experience delivering both **commercial projects** and **funded research**.  
+I enjoy designing **robust, efficient, and production-ready AI solutions** that create real impact.  
 
 ---
 
