@@ -15,7 +15,7 @@ Develop a robust semantic segmentation solution for **real-world safety-critical
 (Due to NDA, client details are omitted.)  
 
 **Overview:**  
-- Converted models to **ONNX → TensorRT** for accelerated inference inside **Dockerized edge environments**  
+- Converted models to **TensorRT** for accelerated inference inside **Dockerized edge environments**  
 - Developed a **distilled SegFormer-based segmentation model**, incorporating **synthetic data generation** to address limited domain-specific data  
 - Optimized for **low-latency, resource-constrained edge deployment** with a continuous feedback loop for model improvement  
 
