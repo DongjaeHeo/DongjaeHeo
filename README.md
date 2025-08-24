@@ -8,7 +8,7 @@ I’m Dongjae Heo, a Machine Learning Engineer passionate about building domain-
 ## 💼 Commercial & Research Projects
 
 ### [1. Semantic Segmentation for Safety-Critical Infrastructure]  
-**2025** | **Role:** AI Research Engineer | *Commercial Contract Project (NDA)*  
+**June 2025 - Present** | **Role:** AI Research Engineer | *Commercial Contract Project (NDA)*  
 
 **Objective:**  
 Develop a robust semantic segmentation solution for **real-world safety-critical infrastructure monitoring**.  
@@ -35,6 +35,26 @@ Develop a robust semantic segmentation solution for **real-world safety-critical
 ![Infrastructure Segmentation Pipeline](images/Segmentation_pipeline_2.png)  
 
 *(Diagram simplified for NDA compliance)*  
+
+### [2. Zero-Shot Object Detection Research (Dromii via Seoul AI Hub)]  
+**Jul 2025 - Presnet** | **Role:** AI Research Engineer | *Commercial Research Project (Funded by Seoul AI Hub)*  
+
+**Objective:**  
+Conduct applied research in **zero-shot object detection** for **Dromii (드로미)**, as part of a Seoul AI Hub program connecting researchers with AI startups.  
+
+**Overview:**  
+- Participated in a **funded research team** working on object detection tasks where new categories must be recognized without retraining  
+- Explored and compared **several baseline approaches** to establish feasibility in the target domain  
+- Focused on **designing evaluation methodologies** and building **baseline metrics** for zero-shot detection performance  
+- Provided **research guidance and mentorship** to engineers, translating research findings into practical insights for deployment  
+
+**Key Contributions:**  
+- Designed **baseline detection pipelines** and ensured reproducible experiments  
+- Established **metrics frameworks** to quantify zero-shot performance  
+- Developed **logging and visualization processes** to analyze results across datasets and conditions  
+- Introduced and tested **non-standard research techniques** aimed at improving baseline model accuracy in zero-shot settings  
+- Supported the startup’s AI engineers with **technical mentorship** and guidance on best practices  
+- Helped bridge **research and applied needs** in an industry-facing project  
 
 ---
 
