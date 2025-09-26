@@ -38,11 +38,11 @@ Develop a robust semantic segmentation solution for **real-world safety-critical
 
 *(Diagram simplified for NDA compliance)*  
 
-### [2. Zero-Shot Object Detection Research (Dromii via Seoul AI Hub)]  
+### [2. Zero-Shot Object Detection Research (via Seoul AI Hub)]  
 **Jul 2025 - Presnet** | **Role:** AI Research Engineer | *Commercial Research Project (Funded by Seoul AI Hub)*  
 
 **Objective:**  
-Conduct applied research in **zero-shot object detection** for **Dromii (드로미)**, as part of a Seoul AI Hub program connecting researchers with AI startups.  
+Conduct applied research in **zero-shot object detection**, as part of a Seoul AI Hub program connecting researchers with AI startups.  
 
 **Overview:**  
 - Participated in a **funded research team** working on object detection tasks where new categories must be recognized without retraining  
