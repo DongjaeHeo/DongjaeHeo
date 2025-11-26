@@ -64,7 +64,7 @@ Developed a **SegFormer-based semantic segmentation system** for safety-critical
 - Achieved ~80% IoU on segmentation and **99% recall** on the downstream obstruction-detection task.
 - Delivered a production-ready system deployed in real field environments  
 - Built an upgradeable pipeline enabling continuous iteration and safe deployments  
-![Infrastructure Segmentation Pipeline](images/Segmentation_pipeline_2.png)
+![Infrastructure Segmentation Pipeline](images/Segmentation_pipeline.png)
 
 ---
 
