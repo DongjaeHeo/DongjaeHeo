@@ -168,5 +168,5 @@ Chrome extension + backend API for managing reusable message templates across Gm
 ## 📞 **Contact**
 
 - **Email:** dongjaeheo14@gmail.com  
-- **Phone (UK):** +44 7878 316264  
+- **Phone:** +44 7878 316264  
 - **LinkedIn:** https://linkedin.com/in/dongjaeheo  
