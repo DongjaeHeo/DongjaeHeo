@@ -1,212 +1,160 @@
-# Dongjae Heo - **Machine Learning Engineer**
+# **Dongjae Heo — Machine Learning Engineer**  
+**LLMs • RAG Systems • Computer Vision • Edge AI Deployment**
 
-## 👋 About Me
-I am a **Machine Learning Engineer** focused on building **domain-specific AI systems** that move from research to real-world deployment.  
-My work spans **LLMs, RAG, and CV**, with experience delivering both **commercial projects** and **funded research**.  
-I enjoy designing **robust, efficient, and production-ready AI solutions** that create real impact.  
+I build **real, deployed AI systems**—from **LLMs and RAG architectures** to **CV models on edge devices**.  
+My work spans national research institutes, commercial deployments, and competitive AI engineering.  
+I focus on **robustness, reproducibility, and production-grade reliability** rather than demos.
+
+🔍 **Open to ML/AI Engineer roles (UK-based or remote).**
 
 ---
 
-## 💼 Commercial & Research Projects
+## 🧰 **Core Skills**
 
-### [1. Semantic Segmentation for Safety-Critical Infrastructure]  
-**June 2025 - Present** | **Role:** AI Research Engineer | *Commercial Contract Project (NDA)*  
+- **ML / DL:** LLMs, RAG, multimodal detection, zero-shot detection, segmentation, distillation, CoT, continual pretraining  
+- **MLOps & Deployment:** Docker, TensorRT, ONNX, GStreamer, FastAPI, monitoring, rollback, edge optimisation  
+- **Data Pipelines:** pseudo-labeling, annotation/QC, dataset curation, large-scale evaluation systems  
+- **Frameworks:** PyTorch, Hugging Face, LangChain, Lightning/FSDP  
+- **Cloud / Infra:** AWS (EC2, S3, ECR, Lambda), CI/CD, Linux  
+- **Languages:** Python, JavaScript (Chrome extensions), SQL  
 
-**Objective:**  
-Develop a robust semantic segmentation solution for **real-world safety-critical infrastructure monitoring**.  
-(Due to NDA, client details are omitted.)  
+---
 
-**Overview:**  
-- Converted models to **TensorRT** for accelerated inference inside **Dockerized edge environments**  
-- Developed a **distilled SegFormer-based segmentation model**, incorporating **synthetic data generation** to address limited domain-specific data  
-- Optimized for **low-latency, resource-constrained edge deployment** with a continuous feedback loop for model improvement  
+# 🚀 **Highlighted Work**
+
+## **1. Multimodal Deepfake & Manipulation Detection (ETRI — National Research Project)**  
+**AI Research Engineer (2024–2025)**  
+**Repo:** *Private due to NDA*
+
+Worked with **ETRI**, Korea’s national AI and telecommunications research institute  
+(*similar in role to the UK’s Alan Turing Institute*)  
+on a multimodal deepfake detection programme covering image, video, and text-conditioned manipulations.
+
+Focused on building a **unified evaluation pipeline** for both CV-based detectors and VLM-based zero-shot systems.
 
 **Key Contributions:**  
-- Built the **end-to-end deployment stack**: multi-camera ingestion (RTSP) → GStreamer preprocessing → Dockerized TensorRT inference  
-- Implemented **comprehensive monitoring**: logging, alerting, and automated rollback for production safety  
-- Designed and integrated a **self-supervised retraining loop** (logs → pseudo-label refinement → distillation → redeployment)  
-- Established **annotation standards and QC pipelines** to ensure consistent dataset quality  
-- Benchmarked and hardened the system against **occlusion, lighting variation, and class imbalance**
+- Designed a **unified, research-grade benchmarking framework** capable of evaluating **binary deepfake detectors**, **multimodal/VLM-based zero-shot detectors**, and **explanation modules** within a single pipeline  
+- Built dataset conversion pipelines and metadata standards to unify **heterogeneous deepfake datasets** into a consistent structure  
+- Developed **Hydra-based CLI tools**, reproducible Docker environments, and training/inference workflows supporting **multi-GPU execution (e.g., DDP)**  
+- Implemented smoke/full evaluation modes, GPU-memory profiling tools, and systematic failure-mode analysis  
+- Created automated cross-model and cross-dataset comparison pipelines for large-scale, reproducible experimentation  
+
+**Impact:**  
+- Delivered a framework used by **ETRI** for national deepfake research  
+- Significantly reduced evaluation time and enabled rapid model comparison  
+- Provided core infrastructure for ongoing multimodal forgery analysis across institutions
+
+---
+
+## **2. Safety-Critical Semantic Segmentation (NIPA — Commercial Deployment)**  
+**AI Research Engineer (2025)**  
+**Repo:** *Private due to NDA*
+
+Developed a **SegFormer-based semantic segmentation system** for safety-critical industrial environments under a national commercial project funded by **NIPA (Korea’s IT Industry Promotion Agency)**.
+
+**Key Contributions:**  
+- Built the full inference pipeline: **multi-camera ingestion → GStreamer preprocessing → TensorRT engine → Dockerised edge deployment**  
+- Designed a **self-supervised retraining loop** (log extraction → pseudo-labels → distillation → automated redeploy)  
+- Established dataset and annotation standards with QC pipelines  
+- Integrated robust monitoring, alerting, and **safe rollback** mechanisms for production stability  
+- Oversaw the **installation and deployment process** on on-site **NVIDIA Jetson edge devices**  
+- Optimised performance to maintain **near-identical inference speed and reliability** when transitioning from **Jetson AGX** to significantly older **Jetson Nano** hardware  
+
+**Impact:**  
+- Achieved ~80% IoU on segmentation and **99% recall** on the downstream obstruction-detection task.
+- Delivered a production-ready system deployed in real field environments  
+- Built an upgradeable pipeline enabling continuous iteration and safe deployments  
+![Infrastructure Segmentation Pipeline](images/Segmentation_pipeline_2.png)
+
+---
+
+## **3. Zero-Shot Object Detection Research (Dromii / Seoul AI Hub)**  
+**AI Research Engineer (2025)**  
+**Repo:** https://github.com/DongjaeHeo/zero_shot_vlm
+
+Conducted applied research on zero-shot detection using VLMs for safety inspection and industrial settings.
+
+**Highlights:**  
+- Developed baseline zero-shot detection pipelines and reproducible experiment frameworks  
+- Designed evaluation metrics, logging systems, and visualization tools  
+- Explored embedding alignment, prompt engineering, and non-standard research techniques  
+- Authored a **A Study on the Application of Vision-Language Models for Zero-Shot Obstruction Detection in Drone Imagery**, demonstrating performance gains in industrial scenarios  
+- Provided technical guidance and research mentorship to startup engineers  
+
+---
+
+## **4. Financial Domain LLM (KRX Competition — Team Leader)**  
+**2024 National Financial LLM Competition**  
+**Repo:** *Private (competition rules)*
+
+Led a 4-person team to develop a **financial-specialised LLM** using continual pretraining, DPO/ORPO, CoT prompting, and synthetic data generation.
+
+**My Role:**  
+- Designed the end-to-end training pipeline (FSDP training + synthetic data loop)  
+- Built a PostgreSQL + Plotly Dash **evaluation board** for large-scale model comparison  
+- Curated reasoning datasets with filtering to reduce catastrophic forgetting  
+- Coordinated roles, papers, and experimentation strategy  
 
 **Results:**  
-- Delivered an **initial deploy-ready model** achieving **80% IoU** on domain-specific validation data  
-- Reached **93% F1 score** for obstruction detection, demonstrating strong performance in early testing  
-- Positioned the system for **continuous improvement** through self-supervised retraining and safe rollout mechanisms (canary deployments, rollback, monitoring) 
-
-**System Overview**  
-![Infrastructure Segmentation Pipeline](images/Segmentation_pipeline_2.png)  
-
-*(Diagram simplified for NDA compliance)*  
-
-### [2. Zero-Shot Object Detection Research (via Seoul AI Hub)]  
-**Jul 2025 - Presnet** | **Role:** AI Research Engineer | *Commercial Research Project (Funded by Seoul AI Hub)*  
-
-**Objective:**  
-Conduct applied research in **zero-shot object detection**, as part of a Seoul AI Hub program connecting researchers with AI startups.  
-
-**Overview:**  
-- Participated in a **funded research team** working on object detection tasks where new categories must be recognized without retraining  
-- Explored and compared **several baseline approaches** to establish feasibility in the target domain  
-- Focused on **designing evaluation methodologies** and building **baseline metrics** for zero-shot detection performance  
-- Provided **research guidance and mentorship** to engineers, translating research findings into practical insights for deployment  
-
-**Key Contributions:**  
-- Designed **baseline detection pipelines** and ensured reproducible experiments  
-- Established **metrics frameworks** to quantify zero-shot performance  
-- Developed **logging and visualization processes** to analyze results across datasets and conditions  
-- Introduced and tested **non-standard research techniques** aimed at improving baseline model accuracy in zero-shot settings  
-- Supported the startup’s AI engineers with **technical mentorship** and guidance on best practices  
-- Helped bridge **research and applied needs** in an industry-facing project  
+- **+13-point gain** over baseline on accounting tasks  
+- **2nd place (prelims)** and **12th place (finals)** among 100+ teams (Google/Naver/Kakao/Lotte participated)  
 
 ---
 
-## 🏆 Team Projects & Competitions
+## **5. Retrieval-Augmented Generation System (Competition)**  
+**RAG System Engineer (2024)**  
+**Repo:** https://github.com/DongjaeHeo/upstage-ai-advanced-ir7
 
-### [1. KRX Financial LLM Competition](https://huggingface.co/KR-X-AI)
+Built an **Advanced RAG system for scientific QA** with selective retrieval, routing, and hallucination reduction.
 
-**Oct – Dec 2024** | **Role:** Team Leader
+**Contributions:**  
+- Implemented full RAG pipeline: retriever + reranker + LLM integration  
+- Built LangChain-based chatbot with memory, query transformation, and routing logic  
+- Delivered early, allowing teammates to extend features  
 
-**Objective:**
-To develop a financial domain-specific LLM capable of solving KRX-Bench tasks, by exploring novel training strategies beyond standard fine-tuning, such as CoT, continual pretraining, and reinforcement learning
-
-**Overview**
-- Developed a financial-specialized LLM tailored for the KRX-Bench benchmark
-- Explored advanced training methods beyond fine-tuning:
-  - **Continual Pretraining** on proprietary finance corpora
-  - **DPO** and **ORPO**
-  - **CoT Prompting** and **Knowledge Distillation**
-- Generated high-quality MCQA with Cot and reasoning datasets using Claude & GPT-4o
-- Adopted domain adaptation strategies inspired by:
-  - *Adapting LLMs to Domains via Reading Comprehension*
-  - *Improving Domain Adaptation through Extended-Text Reading Comprehension*
-- Built an internal leaderboard for large-scale evaluation
-
-**Key Contributions:**
-- Proactive team leader, coordinating 4 members across model training, data generation, and evaluation
-- Organized key research papers to guide model design and training strategies
-- Designed the end-to-end training pipeline, including FSDP-based parallel learning
-- Created high-quality instruction templates for CoT reasoning, MCQA, and multi-task learning
-- Curated and filtered synthetic data to reduce catastrophic forgetting
-- Developed and maintained a custom testing board system (PostgreSQL + Plotly-Dash) for large-scale evaluation
-
-**Results:**
-- Achieved **+13 points** improvement in financial accounting accuracy over baseline
-- Custom leaderboard enabled rapid experimentation and identified optimal model variants.
-- Secured **2nd place (prelims)** and **12th place (nationals)** among 100+ competing teams including industry leaders and specialized financial LLM companies such as Google, Kakao, Naver, Lotte and more.
-
-**Custor Testing Borad**
-
-![KRX Leaderboard](images/score_board.png)
-
-
-### [2. Information Retrieval (RAG) Competition](https://github.com/DongjaeHeo/upstage-ai-advanced-ir7)
-
-**Oct – Oct 2024** | **Role:** RAG Sytem Engineer
-
-**Objective:**
-To build a fact-grounded Retrieval-Augmented Generation (RAG) system capable of scientific knowledge reasoning, reducing LLM hallucinations by integrating real-time document retrieval and inference.
-
-**Overview:**
-- Addressed fundamental LLM limitations such as knowledge cutoff and hallucination
-- Designed a RAG system to retrieve relevant scientific documents and generate accurate answers
-- Used classification to distinguish between scientific vs. general questions and selectively apply retrieval
-- Emphasized real-time knowledge grounding over model-based memorization
-- Focused on RAG architecture design rather than parameter tuning or model ensembling
-
-**Key Contributions:**
-- Took primary responsibility for the competition, handling every aspects of the core Advanced RAG system development
-- Built a complete LangChain-based chatbot on top of the custom RAG pipeline
-- Finalized the system early, which allowed other teammates to explore separate experimental directions such as Chrome Extension
-- The chatbot’s strong performance led to it being highlighted by the organizers
-
-**Results:**
-- Our approach resulted in a **30%** increase in document retrieval accuracy when compared with a naive RAG baseline.
-- Secured **1st place (Public)** and **2nd place (Private)**.
-
-
-**Advance RAG Design**
-
+**Results:**  
+- **+30% retrieval accuracy** over naive baseline  
+- **1st place (Public)** and **2nd place (Private)**  
 ![Advanced RAG Design](images/Advanced_RAG.png)
 
+---
 
-### [3. Dialogue Summarisation Competition](https://github.com/DongjaeHeo/upstage-dialogue-summarization-competition)
+## **6. Korean Dialogue Summarisation System**  
+**AI Engineer (2024)**  
+**Repo:** https://github.com/DongjaeHeo/upstage-dialogue-summarization-competition
 
+Trained a 10B-parameter summarisation model with LoRA + 4-bit quantization and aggressive data normalization.
 
-**Aug – Sep 2024** | **Role:** AI Engineer
+**Highlights:**  
+- Built custom Korean name-standardisation using phoneme decomposition + weighted heuristics  
+- Removed outliers via cosine-similarity scoring  
+- Explored KoBART, T5, and EEVE variants  
 
-**Objective:**
-To build a summarization model for Korean dialogue data by integrating preprocessing, keyword extraction, and NLP model fine-tuning, improving performance on the NLP competition.
-
-**Overview:**
-- Conducted extensive data cleaning (e.g., special token fixes, name normalization, outlier removal)
-- Designed keyword extraction pipelines using Komoran and other morphological analyzer
-- Explored multiple summarization models (KoBART, T5, EEVE)
-- Fine-tuned top-performing models using LoRA and quantization
-- Performed score-driven model selection and evaluation
-
-**Key Contributions:**
-- Trained a 10B parameter model (EEVE) on a 24GB GPU using LoRA and 4-bit quantization
-- Detected outlier by vectorizing dialogues and summaries and computing cosine similarity
-- Standardized names across Korean and English using:
-  - NER + phoneme decomposition (consonant/vowel splitting)
-  - Weighted similarity heuristics to ensure aligned references in dialogue/summary pairs
-
-**Results:**
-- Ranked **Top 3** with a **ROUGE‑L score of 44.16**.  
-- Demonstrated that extensive preprocessing + lightweight fine-tuning outperforms naive full‑parameter updates.
-
-**Noun Standardization**
-
-![Noun Standardization](images/word_similarity.png)
-![Noun Standardization](images/alphabet_similarity.png)
-
-
-### [4. Template Extension Chrome Add‑On](https://github.com/EloPividori/Templates-Chrome-Extension)
-
-**Apr 2022** | **Role:** Web Developer
-
-**Objective:**
-To create a reusable template platform as a web app and Chrome extension that enhances productivity in repetitive communication tasks.
-
-**Overview:**
-- Targeted use cases: recruiting, event coordination, and social media messaging
-- Designed for users frequently sending similar emails or text content
-- Built intuitive UI for template creation and quick copy-paste access
-- Designed extension to work across Gmail, LinkedIn, and messaging platforms
-- Focused on minimizing context switching during high-volume outreach
-
-**Key Contributions:**
-- Developed a Chrome extension with backend integration for seamless template management
-- Enabled users to fetch, preview, and copy entire templates, including text, images, and layout
-- Designed the UI to allow one-click copy of full message content for fast reuse across platforms
-- Connected extension to a backend API for storing and updating user templates in real time
-
-**Results:**
-- Received positive feedback from peers, including a teammate who works as a recruiter
-- The tool was actively used in production and published to the Chrome Web Store
-- Helped streamline communication during real hiring workflows
-(Note: The extension is no longer active or publicly available)
-
-**Use Case**
-
-![Template Extension](images/Template_Extension.png)
-
-(Note: The extension is no longer active or publicly available)
+**Results:**  
+- **Top 3 overall**, **ROUGE-L 44.16**  
 
 ---
 
-## 🎓 Education & Certifications
-- **Double Major in AI & Big Data**, The Cyber University of Korea
-  - Received the Highest Honor Scholarship for three consecutive semesters.
-- **Top 3**, Upstage AI Lab (2024)
-- **AWS ML Engineer – Associate** (2025)
-- **AWS solutions architect – Associate** (2024)
+## **7. Chrome Productivity Extension (Templates Platform)**  
+**Web Developer (2022)**  
+**Repo:** https://github.com/EloPividori/Templates-Chrome-Extension
+
+Chrome extension for managing and reusing message templates across Gmail, LinkedIn, and other platforms.
 
 ---
 
-## 📫 Contact
-- 📧 [dongjaeheo14@gmail.com](mailto:dongjaeheo14@gmail.com)  
-- 🌐 [LinkedIn](https://www.linkedin.com/in/dongjaeheo/)
+# 🎓 **Education & Certifications**
 
+- **AI & Big Data (B.Eng.)** — The Cyber University of Korea  
+  *Highest Honor Scholarship, 3 consecutive semesters*  
+- **Top 3 — Upstage AI Lab (2024)**  
+- **AWS ML Engineer – Associate (2025)**  
+- **AWS Solutions Architect – Associate (2024)**  
 
+---
 
+# 📞 **Contact**
+
+- **Email:** dongjaeheo14@gmail.com  
+- **Phone (UK):** +44 7878 316264  
+- **LinkedIn:** https://linkedin.com/in/dongjaeheo
