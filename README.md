@@ -1,7 +1,7 @@
 # **Dongjae Heo — Machine Learning Engineer**  
 **LLMs • RAG Systems • Computer Vision • Edge AI Deployment**
 
-I build **real, deployed AI systems**—from **LLMs and RAG architectures** to **CV models on edge devices**.  
+I build **real, deployed AI systems**—from **LLM-powered RAG architectures** to **CV models on edge devices**.
 My work spans national research institutes, commercial deployments, and competitive AI engineering.  
 I focus on **robustness, reproducibility, and production-grade reliability** rather than demos.
 
