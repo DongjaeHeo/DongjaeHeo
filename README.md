@@ -5,7 +5,7 @@ I build **real, deployed AI systems**—from **LLMs and RAG architectures** to *
 My work spans national research institutes, commercial deployments, and competitive AI engineering.  
 I focus on **robustness, reproducibility, and production-grade reliability** rather than demos.
 
-**Applied ML engineer with 2+ years of experience delivering deployed LLM, CV, and edge AI systems across national research institutes and commercial environments.**
+**Applied ML engineer with 2+ years of experience building RAG systems, training/evaluating LLMs, and deploying computer vision models on edge AI hardware.**
 
 ---
 
