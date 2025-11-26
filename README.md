@@ -31,7 +31,7 @@ I focus on **robustness, reproducibility, and production-grade reliability** rat
 # 🚀 **Highlighted Work**
 
 ## **1. Multimodal Deepfake & Manipulation Detection (ETRI — National Research Project)**  
-**AI Research Engineer (2024–2025)**  
+**AI Research Engineer (2025)**  
 **Repo:** *Private due to NDA (technical design and methodology can be discussed in interview)*
 
 Worked with **ETRI**, Korea’s national AI and telecommunications research institute  
