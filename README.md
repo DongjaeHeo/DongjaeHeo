@@ -13,7 +13,7 @@ I focus on **robustness, reproducibility, and production-grade reliability** rat
 
 - Deploying CV models on edge hardware (Jetson, TensorRT, Docker) for safety-critical use cases.  
 - Building evaluation, monitoring, and benchmarking pipelines for deepfake detection and VLM systems.  
-- Researching **heterogeneous Federated Learning**, focusing on non-IID data, imbalance, client heterogeneity, privacy constraints, and personalisation-aware optimisation for real-world systems.
+- Researching **heterogeneous Federated Learning** for real-world systems (non-IID data, client imbalance, device heterogeneity, privacy, and personalisation-aware optimisation).  
 
 ---
 
@@ -28,7 +28,7 @@ I focus on **robustness, reproducibility, and production-grade reliability** rat
 
 ---
 
-# 🚀 **Highlighted Work**
+## 🚀 **Highlighted Work**
 
 ## **1. Multimodal Deepfake & Manipulation Detection (ETRI — National Research Project)**  
 **AI Research Engineer (2025)**  
